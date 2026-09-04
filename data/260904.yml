@@ -7,7 +7,7 @@ about:
   head: 8ce1236
   archived: false
   latestVersion: v26.06.1
-  collectedAt: 2026-09-04T19:28:03Z
+  collectedAt: 2026-09-04T21:05:37Z
 timeline:
   created: 2016-12-22
   lastCommit: 2026-08-18
@@ -87,6 +87,69 @@ total:
   openIssue: 232
   commit: 1875
 ---
+path: /home/runner/.x-repo/github.com/NetApp/trident
+collectedAt: 2026-09-04T21:05:44Z
+loc:
+  Go:
+    code: 2084177
+    comments: 552700
+    blanks: 578767
+    files: 5851
+  Yaml:
+    code: 961486
+    comments: 115
+    blanks: 422
+    files: 73
+  Json:
+    code: 172614
+    comments: 0
+    blanks: 18
+    files: 28
+  Python:
+    code: 699
+    comments: 188
+    blanks: 188
+    files: 6
+  Pan:
+    code: 386
+    comments: 0
+    blanks: 30
+    files: 1
+  Makefile:
+    code: 323
+    comments: 131
+    blanks: 102
+    files: 2
+  Dockerfile:
+    code: 135
+    comments: 8
+    blanks: 33
+    files: 3
+  Sh:
+    code: 111
+    comments: 20
+    blanks: 29
+    files: 3
+  Bash:
+    code: 30
+    comments: 10
+    blanks: 14
+    files: 4
+  Markdown:
+    code: 0
+    comments: 1241
+    blanks: 522
+    files: 7
+  Text:
+    code: 0
+    comments: 2699
+    blanks: 3655
+    files: 9
+total:
+  code: 3220010
+  comments: 557128
+  blanks: 583790
+  files: 5987
 ---
 date: "2026-08-24"
 repo:
