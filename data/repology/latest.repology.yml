@@ -1,0 +1,85 @@
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: trident
+  binnames:
+    - libtrident-java
+    - libtrident-java-doc
+  visiblename: trident
+  version: "1.3"
+  origversion: 1.3+dfsg-5
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ubuntu@rossfamily.co.uk
+  categories:
+    - java
+- repo: raspbian_stable
+  subrepo: main
+  srcname: trident
+  binnames:
+    - libtrident-java
+    - libtrident-java-doc
+  visiblename: trident
+  version: "1.3"
+  origversion: 1.3+dfsg-5
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ubuntu@rossfamily.co.uk
+  categories:
+    - java
+- repo: raspbian_testing
+  subrepo: main
+  srcname: trident
+  binnames:
+    - libtrident-java
+    - libtrident-java-doc
+  visiblename: trident
+  version: "1.3"
+  origversion: 1.3+dfsg-5
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ubuntu@rossfamily.co.uk
+  categories:
+    - java
+- repo: spack
+  srcname: trident
+  visiblename: trident
+  version: 24.02.0
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-spack@repology
+  licenses:
+    - Apache-2.0
+- repo: ubuntu_14_04
+  subrepo: trusty/universe
+  srcname: trident
+  binnames:
+    - libtrident-java
+    - libtrident-java-doc
+  visiblename: trident
+  version: "1.3"
+  origversion: 1.3+dfsg-5
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ubuntu@rossfamily.co.uk
+  categories:
+    - universe/java
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: trident
+  binnames:
+    - libtrident-java
+    - libtrident-java-doc
+  visiblename: trident
+  version: "1.3"
+  origversion: 1.3+dfsg-5
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ubuntu@rossfamily.co.uk
+  categories:
+    - universe/java
