@@ -7,7 +7,7 @@ about:
   latestVersion: "v26.06.1"
   latestRelease: "v26.06.1"
   latestPrerelease: "v20.01.0-beta.1"
-  collectedAt: 2026-09-10T21:20:12Z
+  collectedAt: 2026-09-10T22:45:56Z
 timeline:
   created: 2016-12-22
   lastCommit: 2026-09-09
@@ -90,7 +90,7 @@ total:
   commit: 1883
 ---
 path: /home/runner/.x-repo/github.com/NetApp/trident
-collectedAt: 2026-09-10T21:20:29Z
+collectedAt: 2026-09-10T22:46:11Z
 loc:
   Go:
     code: 2085773
