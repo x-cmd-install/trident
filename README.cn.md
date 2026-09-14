@@ -57,22 +57,18 @@ x install trident
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 0 | 3 | 1 | 8 | 8 |
-| last60d | 2026-07-15 | 1 | 0 | 4 | 2 | 13 | 24 |
-| 90d | 2026-06-15 | 2 | 0 | 12 | 2 | 20 | 50 |
-| last180d | 2026-03-17 | 3 | 0 | 15 | 12 | 36 | 112 |
-| 360d | 2025-09-18 | 6 | 0 | 17 | 41 | 64 | 259 |
-| last720d | 2024-09-23 | 13 | 0 | 29 | 93 | 119 | 491 |
+| 30d | 2026-08-15 | 1 | 0 | 3 | 1 | 8 | 8 |
+| last60d | 2026-07-16 | 1 | 0 | 4 | 2 | 13 | 24 |
+| 90d | 2026-06-16 | 2 | 0 | 12 | 2 | 20 | 50 |
+| last180d | 2026-03-18 | 3 | 0 | 15 | 12 | 36 | 112 |
+| 360d | 2025-09-19 | 6 | 0 | 17 | 41 | 63 | 259 |
+| last720d | 2024-09-24 | 13 | 0 | 29 | 92 | 119 | 489 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
 | [trident-installer-26.06.1.tar.gz](https://github.com/NetApp/trident/releases/download/v26.06.1/trident-installer-26.06.1.tar.gz) | 105.9 MiB | `native/unknown` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/trident) 上共有 **6** 个发行版报告此项目。**1** 个 ✅ 已是最新上游版本，**5** 个 ⚠️ 使用旧版本。
 
 ## 改进这些数据
 
@@ -83,4 +79,4 @@ trident 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T03:52:34Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T03:59:58Z._

@@ -57,22 +57,18 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 0 | 3 | 1 | 8 | 8 |
-| last60d | 2026-07-15 | 1 | 0 | 4 | 2 | 13 | 24 |
-| 90d | 2026-06-15 | 2 | 0 | 12 | 2 | 20 | 50 |
-| last180d | 2026-03-17 | 3 | 0 | 15 | 12 | 36 | 112 |
-| 360d | 2025-09-18 | 6 | 0 | 17 | 41 | 64 | 259 |
-| last720d | 2024-09-23 | 13 | 0 | 29 | 93 | 119 | 491 |
+| 30d | 2026-08-15 | 1 | 0 | 3 | 1 | 8 | 8 |
+| last60d | 2026-07-16 | 1 | 0 | 4 | 2 | 13 | 24 |
+| 90d | 2026-06-16 | 2 | 0 | 12 | 2 | 20 | 50 |
+| last180d | 2026-03-18 | 3 | 0 | 15 | 12 | 36 | 112 |
+| 360d | 2025-09-19 | 6 | 0 | 17 | 41 | 63 | 259 |
+| last720d | 2024-09-24 | 13 | 0 | 29 | 92 | 119 | 489 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [trident-installer-26.06.1.tar.gz](https://github.com/NetApp/trident/releases/download/v26.06.1/trident-installer-26.06.1.tar.gz) | 105.9 MiB | `native/unknown` |
-
-## Distribution status
-
-Reported by **6** distros on [repology.org](https://repology.org/project/trident). **1** are ✅ on the latest upstream release, **5** are ⚠️ on an older version.
 
 ## Improve this data
 
@@ -83,4 +79,4 @@ Install metadata for trident lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T03:52:33Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T03:59:56Z._
