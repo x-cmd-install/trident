@@ -4,7 +4,7 @@
 
 Storage orchestrator for containers
 
-![trident](https://repo.x-cmd.io/trident.svg?lang=zh)
+[![x-cmd/install — trident Code Quality Monitoring Repo Card](https://repo.x-cmd.io/trident.svg?lang=zh)](https://x-cmd.com/install/trident)
 
 ## 安装
 
@@ -47,22 +47,22 @@ x install trident
 
 ## 流行度
 
-- **Star**: 878 · **Fork**: 281 · **开放 issue**: 1,034 · **贡献者**: 89
+- **Star**: 878 · **Fork**: 281 · **开放 issue**: 1,035 · **贡献者**: 89
 
 ## 累计统计
 
-- **发布数**: 75 · **已合并 PR**: 4 · **开放 PR**: 51 · **已关闭 issue**: 800 · **开放 issue**: 234 · **提交数**: 1887
+- **发布数**: 75 · **已合并 PR**: 4 · **开放 PR**: 51 · **已关闭 issue**: 800 · **开放 issue**: 235 · **提交数**: 1887
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 0 | 5 | 1 | 9 | 12 |
-| last60d | 2026-07-20 | 1 | 0 | 6 | 2 | 13 | 28 |
-| 90d | 2026-06-20 | 2 | 0 | 14 | 2 | 21 | 54 |
-| last180d | 2026-03-22 | 3 | 0 | 17 | 12 | 36 | 116 |
-| 360d | 2025-09-23 | 6 | 0 | 19 | 41 | 63 | 263 |
-| last720d | 2024-09-28 | 13 | 0 | 31 | 92 | 119 | 488 |
+| 30d | 2026-08-21 | 0 | 0 | 5 | 1 | 9 | 8 |
+| last60d | 2026-07-22 | 1 | 0 | 6 | 2 | 14 | 26 |
+| 90d | 2026-06-22 | 2 | 0 | 12 | 2 | 21 | 47 |
+| last180d | 2026-03-24 | 3 | 0 | 17 | 12 | 37 | 112 |
+| 360d | 2025-09-25 | 6 | 0 | 19 | 39 | 62 | 260 |
+| last720d | 2024-09-30 | 13 | 0 | 31 | 92 | 120 | 488 |
 
 ## Release 资产
 
@@ -79,4 +79,4 @@ trident 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T03:49:20Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T04:01:43Z._
