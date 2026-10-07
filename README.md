@@ -14,12 +14,12 @@ x install trident
 
 ## Code insight
 
-Total: **3,228,092** lines of code across **5985** files in the top 5 languages.
+Total: **3,228,699** lines of code across **5985** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 2,092,274 | 553,695 | 580,214 | 5877 |
-| Yaml | 961,520 | 118 | 422 | 73 |
+| Go | 2,092,878 | 553,725 | 580,258 | 5877 |
+| Yaml | 961,523 | 119 | 423 | 73 |
 | Json | 172,614 | 0 | 18 | 28 |
 | Python | 699 | 188 | 188 | 6 |
 | Pan | 386 | 0 | 30 | 1 |
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 879 · **Forks**: 282 · **Open issues**: 1,035 · **Contributors**: 91
+- **Stars**: 879 · **Forks**: 282 · **Open issues**: 1,035 · **Contributors**: 92
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 4 · **Open PRs**: 51 · **Closed issues**: 800 · **Open issues**: 235 · **Commits**: 1902
+- **Releases**: 75 · **Merged PRs**: 4 · **Open PRs**: 51 · **Closed issues**: 800 · **Open issues**: 235 · **Commits**: 1905
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 0 | 0 | 2 | 0 | 4 | 0 |
-| last60d | 2026-08-07 | 1 | 0 | 6 | 1 | 11 | 0 |
-| 90d | 2026-07-08 | 1 | 0 | 10 | 2 | 19 | 0 |
-| last180d | 2026-04-09 | 3 | 0 | 16 | 11 | 35 | 0 |
-| 360d | 2025-10-11 | 6 | 0 | 19 | 37 | 59 | 0 |
-| last720d | 2024-10-16 | 13 | 0 | 31 | 90 | 117 | 481 |
+| 30d | 2026-09-07 | 0 | 0 | 2 | 0 | 4 | 21 |
+| last60d | 2026-08-08 | 1 | 0 | 6 | 1 | 11 | 38 |
+| 90d | 2026-07-09 | 1 | 0 | 10 | 2 | 19 | 54 |
+| last180d | 2026-04-10 | 3 | 0 | 16 | 10 | 33 | 116 |
+| 360d | 2025-10-12 | 6 | 0 | 19 | 37 | 59 | 253 |
+| last720d | 2024-10-17 | 13 | 0 | 31 | 90 | 116 | 483 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for trident lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T05:29:38Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T04:58:39Z._
