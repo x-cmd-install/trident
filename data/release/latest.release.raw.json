@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/NetApp/trident/releases/373344191",
-  "assets_url": "https://api.github.com/repos/NetApp/trident/releases/373344191/assets",
-  "upload_url": "https://uploads.github.com/repos/NetApp/trident/releases/373344191/assets{?name,label}",
-  "html_url": "https://github.com/NetApp/trident/releases/tag/v26.06.1",
-  "id": 373344191,
+  "url": "https://api.github.com/repos/NetApp/trident/releases/407212643",
+  "assets_url": "https://api.github.com/repos/NetApp/trident/releases/407212643/assets",
+  "upload_url": "https://uploads.github.com/repos/NetApp/trident/releases/407212643/assets{?name,label}",
+  "html_url": "https://github.com/NetApp/trident/releases/tag/v26.06.2",
+  "id": 407212643,
   "author": {
     "login": "netapp-ci-release[bot]",
     "id": 131532883,
@@ -25,22 +25,22 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBJmq8s4WQMe_",
-  "tag_name": "v26.06.1",
-  "target_commitish": "4c655f64cffa82f9d90c80ea5672658b2bbb45f5",
-  "name": "v26.06.1",
+  "node_id": "RE_kwDOBJmq8s4YRZJj",
+  "tag_name": "v26.06.2",
+  "target_commitish": "9e8c1cd69f9a3461d68bb0a50069e14670258d75",
+  "name": "v26.06.2",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-08-17T23:22:06Z",
-  "updated_at": "2026-08-19T21:05:58Z",
-  "published_at": "2026-08-19T21:05:58Z",
+  "created_at": "2026-10-08T18:48:24Z",
+  "updated_at": "2026-10-08T20:46:01Z",
+  "published_at": "2026-10-08T20:46:01Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/NetApp/trident/releases/assets/521334219",
-      "id": 521334219,
-      "node_id": "RA_kwDOBJmq8s4fEu3L",
-      "name": "trident-installer-26.06.1.tar.gz",
+      "url": "https://api.github.com/repos/NetApp/trident/releases/assets/622854005",
+      "id": 622854005,
+      "node_id": "RA_kwDOBJmq8s4lH_91",
+      "name": "trident-installer-26.06.2.tar.gz",
       "label": "",
       "uploader": {
         "login": "netapp-ci-release[bot]",
@@ -65,15 +65,15 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 111017635,
-      "digest": "sha256:606752c85238cb0d54121ecaf811bca0d5adea80247f9b55d2a12238d8e8bf04",
-      "download_count": 3406,
-      "created_at": "2026-08-19T20:52:37Z",
-      "updated_at": "2026-08-19T20:52:40Z",
-      "browser_download_url": "https://github.com/NetApp/trident/releases/download/v26.06.1/trident-installer-26.06.1.tar.gz"
+      "size": 113401352,
+      "digest": "sha256:338a2a7194452a769bfa1871f8a11b06a0f8ed76da7b642a2f53fc9bc12a7ec3",
+      "download_count": 34,
+      "created_at": "2026-10-08T19:57:39Z",
+      "updated_at": "2026-10-08T19:57:42Z",
+      "browser_download_url": "https://github.com/NetApp/trident/releases/download/v26.06.2/trident-installer-26.06.2.tar.gz"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/NetApp/trident/tarball/v26.06.1",
-  "zipball_url": "https://api.github.com/repos/NetApp/trident/zipball/v26.06.1",
-  "body": "## Changes since v26.06.0\r\n\r\n### Trident\r\n\r\n**Fixes:**\r\n\r\n- **Kubernetes:** Fixed a race between CSI publish and volume move that could attach a volume using stale access information.\r\n- **Kubernetes:** Fixed a race where `NodeGetInfo` could return empty topology labels before node registration completed, causing topology-aware provisioning failures.\r\n- **Kubernetes:** Fixed a rare NVMe disconnect race that could tear down a shared subsystem while another pod was still attaching.\r\n- **Kubernetes:** Fixed NVMe PVC clone publish failures (and incorrect parent-namespace mapping) when creating clones of a mounted volume under concurrency.\r\n- **Kubernetes:** Fixed snapshot creation failures for PVCs on ONTAP-SAN-Economy backends using a `nameTemplate`.\r\n\r\n**Enhancements:**\r\n\r\n- Added optional `storageAPITimeout` (seconds) on ONTAP backend config to set REST and ZAPI API client timeouts per backend."
+  "tarball_url": "https://api.github.com/repos/NetApp/trident/tarball/v26.06.2",
+  "zipball_url": "https://api.github.com/repos/NetApp/trident/zipball/v26.06.2",
+  "body": "## Changes since v26.06.1\r\n\r\n### Trident\r\n\r\n**Fixes:**\r\n\r\n- **Kubernetes:** Fixed ONTAP-NAS export policy rules being silently deleted when the Trident controller restarted, or a `TridentBackendConfig` was otherwise updated, while `enableConcurrency` was set to `true`, which could strand already-mounted volumes (Issues [#1166](https://github.com/NetApp/trident/issues/1166), [#1179](https://github.com/NetApp/trident/issues/1179)).\r\n- **Kubernetes:** Fixed backend updates running a per-volume orphan scan for non-material changes such as credentials and QoS, which could block CSI operations for hours on large backends. The scan now runs only when the SVM or storage prefix changes.\r\n- **Kubernetes:** Fixed credentials appearing in Trident's debug logs, including CSI gRPC request dumps, the startup environment dump, and `TridentBackendConfig` specifications logged by the CRD controller. The startup environment dump now logs values only for Trident's own `TRIDENT_*` variables and lists other variables by name."
 }
