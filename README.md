@@ -14,11 +14,11 @@ x install trident
 
 ## Code insight
 
-Total: **3,228,981** lines of code across **5985** files in the top 5 languages.
+Total: **3,230,916** lines of code across **5990** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 2,093,160 | 553,766 | 580,296 | 5877 |
+| Go | 2,095,095 | 553,953 | 580,636 | 5882 |
 | Yaml | 961,523 | 119 | 423 | 73 |
 | Json | 172,614 | 0 | 18 | 28 |
 | Python | 699 | 188 | 188 | 6 |
@@ -41,34 +41,34 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v26.06.1` (2026-08-19)
-- **Last commit**: 2026-10-07
+- **Latest**: `v26.06.2` (2026-10-08)
+- **Last commit**: 2026-10-08
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 879 · **Forks**: 282 · **Open issues**: 1,036 · **Contributors**: 93
+- **Stars**: 881 · **Forks**: 282 · **Open issues**: 1,036 · **Contributors**: 93
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 4 · **Open PRs**: 51 · **Closed issues**: 801 · **Open issues**: 235 · **Commits**: 1909
+- **Releases**: 76 · **Merged PRs**: 4 · **Open PRs**: 51 · **Closed issues**: 801 · **Open issues**: 235 · **Commits**: 1910
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-08 | 0 | 0 | 2 | 0 | 4 | 25 |
-| last60d | 2026-08-09 | 1 | 0 | 6 | 2 | 11 | 42 |
-| 90d | 2026-07-10 | 1 | 0 | 10 | 3 | 18 | 58 |
-| last180d | 2026-04-11 | 3 | 0 | 16 | 11 | 33 | 120 |
-| 360d | 2025-10-13 | 6 | 0 | 19 | 38 | 59 | 257 |
-| last720d | 2024-10-18 | 13 | 0 | 31 | 91 | 116 | 487 |
+| 30d | 2026-09-09 | 1 | 0 | 2 | 0 | 4 | 26 |
+| last60d | 2026-08-10 | 2 | 0 | 6 | 2 | 11 | 43 |
+| 90d | 2026-07-11 | 2 | 0 | 10 | 3 | 17 | 59 |
+| last180d | 2026-04-12 | 4 | 0 | 16 | 11 | 33 | 121 |
+| 360d | 2025-10-14 | 7 | 0 | 19 | 38 | 59 | 258 |
+| last720d | 2024-10-19 | 14 | 0 | 31 | 91 | 116 | 488 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [trident-installer-26.06.1.tar.gz](https://github.com/NetApp/trident/releases/download/v26.06.1/trident-installer-26.06.1.tar.gz) | 105.9 MiB | `native/unknown` |
+| [trident-installer-26.06.2.tar.gz](https://github.com/NetApp/trident/releases/download/v26.06.2/trident-installer-26.06.2.tar.gz) | 108.1 MiB | `native/unknown` |
 
 ## Improve this data
 
@@ -79,4 +79,4 @@ Install metadata for trident lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261008.yml` · 2026-10-08T05:09:11Z._
+_Snapshot: `data/card/261009.yml` · 2026-10-09T05:12:03Z._
