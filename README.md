@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 76 · **Merged PRs**: 4 · **Open PRs**: 51 · **Closed issues**: 801 · **Open issues**: 237 · **Commits**: 1913
+- **Releases**: 76 · **Merged PRs**: 4 · **Open PRs**: 51 · **Closed issues**: 802 · **Open issues**: 236 · **Commits**: 1913
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-10 | 1 | 0 | 2 | 0 | 5 | 29 |
-| last60d | 2026-08-11 | 2 | 0 | 6 | 2 | 12 | 46 |
-| 90d | 2026-07-12 | 2 | 0 | 10 | 3 | 19 | 62 |
-| last180d | 2026-04-13 | 4 | 0 | 16 | 10 | 35 | 124 |
-| 360d | 2025-10-15 | 7 | 0 | 19 | 38 | 61 | 261 |
-| last720d | 2024-10-20 | 14 | 0 | 31 | 91 | 118 | 491 |
+| 30d | 2026-09-11 | 1 | 0 | 2 | 1 | 4 | 25 |
+| last60d | 2026-08-12 | 2 | 0 | 5 | 3 | 11 | 38 |
+| 90d | 2026-07-13 | 2 | 0 | 8 | 4 | 16 | 56 |
+| last180d | 2026-04-14 | 4 | 0 | 16 | 11 | 34 | 122 |
+| 360d | 2025-10-16 | 7 | 0 | 19 | 39 | 60 | 253 |
+| last720d | 2024-10-21 | 14 | 0 | 31 | 92 | 117 | 491 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for trident lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261010.yml` · 2026-10-10T04:57:19Z._
+_Snapshot: `data/card/261011.yml` · 2026-10-11T04:44:49Z._
