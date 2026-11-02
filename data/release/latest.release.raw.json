@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 116091812,
       "digest": "sha256:dd2195e5e6571c283111d7361d859fc1a9cb64ab72804c62168887f6b7970808",
-      "download_count": 77,
+      "download_count": 120,
       "created_at": "2026-10-30T15:53:37Z",
       "updated_at": "2026-10-30T15:53:42Z",
       "browser_download_url": "https://github.com/NetApp/trident/releases/download/v26.10.0/trident-installer-26.10.0.tar.gz"
