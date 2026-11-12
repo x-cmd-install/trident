@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 2 | 0 | 1 | 0 | 5 | 28 |
-| last60d | 2026-09-12 | 3 | 0 | 3 | 1 | 9 | 63 |
-| 90d | 2026-08-13 | 4 | 0 | 6 | 4 | 15 | 78 |
-| last180d | 2026-05-15 | 5 | 0 | 13 | 9 | 30 | 144 |
-| 360d | 2025-11-16 | 7 | 0 | 17 | 39 | 55 | 262 |
-| last720d | 2024-11-21 | 15 | 0 | 27 | 92 | 111 | 506 |
+| 30d | 2026-10-13 | 2 | 0 | 1 | 0 | 5 | 28 |
+| last60d | 2026-09-13 | 3 | 0 | 3 | 1 | 9 | 63 |
+| 90d | 2026-08-14 | 4 | 0 | 6 | 4 | 15 | 78 |
+| last180d | 2026-05-16 | 5 | 0 | 13 | 9 | 30 | 144 |
+| 360d | 2025-11-17 | 7 | 0 | 17 | 38 | 55 | 262 |
+| last720d | 2024-11-22 | 15 | 0 | 27 | 92 | 111 | 506 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for trident lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T05:16:06Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T06:20:31Z._
