@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 883 · **Forks**: 282 · **Open issues**: 1,043 · **Contributors**: 97
+- **Stars**: 883 · **Forks**: 282 · **Open issues**: 1,044 · **Contributors**: 97
 
 ## Totals (cumulative)
 
-- **Releases**: 78 · **Merged PRs**: 4 · **Open PRs**: 48 · **Closed issues**: 811 · **Open issues**: 232 · **Commits**: 1950
+- **Releases**: 78 · **Merged PRs**: 4 · **Open PRs**: 48 · **Closed issues**: 811 · **Open issues**: 233 · **Commits**: 1950
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 2 | 0 | 1 | 0 | 5 | 28 |
-| last60d | 2026-09-13 | 3 | 0 | 3 | 1 | 9 | 63 |
-| 90d | 2026-08-14 | 4 | 0 | 6 | 4 | 15 | 78 |
-| last180d | 2026-05-16 | 5 | 0 | 13 | 9 | 30 | 144 |
-| 360d | 2025-11-17 | 7 | 0 | 17 | 38 | 55 | 262 |
-| last720d | 2024-11-22 | 15 | 0 | 27 | 92 | 111 | 506 |
+| 30d | 2026-10-14 | 2 | 0 | 1 | 0 | 6 | 28 |
+| last60d | 2026-09-14 | 3 | 0 | 3 | 1 | 10 | 63 |
+| 90d | 2026-08-15 | 4 | 0 | 6 | 4 | 16 | 78 |
+| last180d | 2026-05-17 | 5 | 0 | 13 | 9 | 31 | 144 |
+| 360d | 2025-11-18 | 7 | 0 | 17 | 38 | 56 | 262 |
+| last720d | 2024-11-23 | 15 | 0 | 27 | 92 | 112 | 505 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for trident lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T06:20:31Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T05:41:27Z._
