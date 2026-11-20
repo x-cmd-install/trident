@@ -14,13 +14,13 @@ x install trident
 
 ## Code insight
 
-Total: **3,269,560** lines of code across **6119** files in the top 5 languages.
+Total: **3,284,381** lines of code across **6206** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 2,132,448 | 557,964 | 586,500 | 6005 |
+| Go | 2,147,263 | 559,826 | 589,382 | 6092 |
 | Yaml | 962,567 | 128 | 424 | 78 |
-| Json | 172,624 | 0 | 18 | 29 |
+| Json | 172,630 | 0 | 18 | 29 |
 | Python | 699 | 188 | 188 | 6 |
 | Pan | 387 | 0 | 30 | 1 |
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v26.10.1` (2026-11-03)
-- **Last commit**: 2026-11-18
+- **Last commit**: 2026-11-19
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 885 · **Forks**: 282 · **Open issues**: 1,044 · **Contributors**: 97
+- **Stars**: 885 · **Forks**: 282 · **Open issues**: 1,044 · **Contributors**: 98
 
 ## Totals (cumulative)
 
-- **Releases**: 78 · **Merged PRs**: 4 · **Open PRs**: 48 · **Closed issues**: 811 · **Open issues**: 233 · **Commits**: 1956
+- **Releases**: 78 · **Merged PRs**: 4 · **Open PRs**: 48 · **Closed issues**: 811 · **Open issues**: 233 · **Commits**: 1960
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 2 | 0 | 1 | 0 | 6 | 19 |
-| last60d | 2026-09-20 | 3 | 0 | 1 | 1 | 8 | 67 |
-| 90d | 2026-08-21 | 3 | 0 | 6 | 4 | 15 | 81 |
-| last180d | 2026-05-23 | 5 | 0 | 13 | 8 | 28 | 149 |
-| 360d | 2025-11-24 | 7 | 0 | 15 | 37 | 55 | 265 |
-| last720d | 2024-11-29 | 15 | 0 | 27 | 90 | 111 | 506 |
+| 30d | 2026-10-21 | 2 | 0 | 1 | 0 | 5 | 23 |
+| last60d | 2026-09-21 | 3 | 0 | 1 | 1 | 8 | 71 |
+| 90d | 2026-08-22 | 3 | 0 | 6 | 4 | 15 | 85 |
+| last180d | 2026-05-24 | 5 | 0 | 13 | 8 | 28 | 153 |
+| 360d | 2025-11-25 | 7 | 0 | 15 | 35 | 55 | 269 |
+| last720d | 2024-11-30 | 15 | 0 | 27 | 90 | 111 | 510 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for trident lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T06:32:10Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T06:19:22Z._
