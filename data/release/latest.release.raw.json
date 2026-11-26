@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/NetApp/trident/releases/433130071",
-  "assets_url": "https://api.github.com/repos/NetApp/trident/releases/433130071/assets",
-  "upload_url": "https://uploads.github.com/repos/NetApp/trident/releases/433130071/assets{?name,label}",
-  "html_url": "https://github.com/NetApp/trident/releases/tag/v26.10.1",
-  "id": 433130071,
+  "url": "https://api.github.com/repos/NetApp/trident/releases/458557893",
+  "assets_url": "https://api.github.com/repos/NetApp/trident/releases/458557893/assets",
+  "upload_url": "https://uploads.github.com/repos/NetApp/trident/releases/458557893/assets{?name,label}",
+  "html_url": "https://github.com/NetApp/trident/releases/tag/v26.10.2",
+  "id": 458557893,
   "author": {
     "login": "netapp-ci-release[bot]",
     "id": 131532883,
@@ -25,22 +25,22 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBJmq8s4Z0QpX",
-  "tag_name": "v26.10.1",
-  "target_commitish": "738a6486dcf3aefade04f1f4cbde3bead2dd4af4",
-  "name": "v26.10.1",
+  "node_id": "RE_kwDOBJmq8s4bVQnF",
+  "tag_name": "v26.10.2",
+  "target_commitish": "04b8acaa7fbfdf5d9709cb091745ed7a45abf2ee",
+  "name": "v26.10.2",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-11-03T18:08:24Z",
-  "updated_at": "2026-11-03T19:57:26Z",
-  "published_at": "2026-11-03T19:57:26Z",
+  "created_at": "2026-11-24T22:02:00Z",
+  "updated_at": "2026-11-25T20:02:06Z",
+  "published_at": "2026-11-25T20:02:06Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/NetApp/trident/releases/assets/706823357",
-      "id": 706823357,
-      "node_id": "RA_kwDOBJmq8s4qIUS9",
-      "name": "trident-installer-26.10.1.tar.gz",
+      "url": "https://api.github.com/repos/NetApp/trident/releases/assets/792850252",
+      "id": 792850252,
+      "node_id": "RA_kwDOBJmq8s4vQe9M",
+      "name": "trident-installer-26.10.2.tar.gz",
       "label": "",
       "uploader": {
         "login": "netapp-ci-release[bot]",
@@ -65,15 +65,15 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 116090008,
-      "digest": "sha256:fafb41ec08b7cd0d57f76bb1204cf79424e6b2c1762403796b0f5358ad63ad52",
-      "download_count": 1720,
-      "created_at": "2026-11-03T19:31:17Z",
-      "updated_at": "2026-11-03T19:31:21Z",
-      "browser_download_url": "https://github.com/NetApp/trident/releases/download/v26.10.1/trident-installer-26.10.1.tar.gz"
+      "size": 115699076,
+      "digest": "sha256:185aa28ad3bb84947ce08e190dc2149870a9fe61ca81a358ca15281aebbd5966",
+      "download_count": 26,
+      "created_at": "2026-11-25T19:31:36Z",
+      "updated_at": "2026-11-25T19:31:40Z",
+      "browser_download_url": "https://github.com/NetApp/trident/releases/download/v26.10.2/trident-installer-26.10.2.tar.gz"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/NetApp/trident/tarball/v26.10.1",
-  "zipball_url": "https://api.github.com/repos/NetApp/trident/zipball/v26.10.1",
-  "body": "## Changes since v26.10.0\r\n\r\n### Trident\r\n\r\n**Fixes:**\r\n\r\n- **Kubernetes:** Fixed Trident node pods force-detaching in-use volumes at startup after upgrading from Trident 25.10 or earlier, which caused pods to fail with `volume ... is not staged`."
+  "tarball_url": "https://api.github.com/repos/NetApp/trident/tarball/v26.10.2",
+  "zipball_url": "https://api.github.com/repos/NetApp/trident/zipball/v26.10.2",
+  "body": "## Changes since v26.10.1\r\n\r\n### Trident\r\n\r\n**Fixes:**\r\n\r\n- **Kubernetes:** Fixed crash caused by concurrent NodePublish calls.\r\n- **Kubernetes:** Fixed issue where a subset of possible SVM data LIFs were discovered during backend initialize and subsequent iSCSI volume attachments.\r\n- **Kubernetes:** Fixed volume clone metadata so the TridentVolume records the requested StorageClass and AccessMode when cloning across StorageClasses on the same backend, including when concurrency is enabled (Issue [#1162](https://github.com/NetApp/trident/issues/1162))."
 }
