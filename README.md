@@ -41,38 +41,34 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v26.10.1` (2026-11-03)
+- **Latest**: `v26.10.2` (2026-11-25)
 - **Last commit**: 2026-11-19
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 885 · **Forks**: 283 · **Open issues**: 1,044 · **Contributors**: 98
+- **Stars**: 884 · **Forks**: 283 · **Open issues**: 1,044 · **Contributors**: 98
 
 ## Totals (cumulative)
 
-- **Releases**: 78 · **Merged PRs**: 4 · **Open PRs**: 48 · **Closed issues**: 812 · **Open issues**: 232 · **Commits**: 1960
+- **Releases**: 79 · **Merged PRs**: 4 · **Open PRs**: 48 · **Closed issues**: 812 · **Open issues**: 232 · **Commits**: 1960
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 2 | 0 | 1 | 0 | 5 | 21 |
-| last60d | 2026-09-26 | 3 | 0 | 1 | 1 | 8 | 67 |
-| 90d | 2026-08-27 | 3 | 0 | 6 | 4 | 14 | 81 |
-| last180d | 2026-05-29 | 5 | 0 | 13 | 8 | 27 | 146 |
-| 360d | 2025-11-30 | 7 | 0 | 15 | 35 | 54 | 269 |
-| last720d | 2024-12-05 | 15 | 0 | 27 | 90 | 109 | 508 |
+| 30d | 2026-10-27 | 3 | 0 | 1 | 0 | 5 | 21 |
+| last60d | 2026-09-27 | 4 | 0 | 1 | 1 | 8 | 67 |
+| 90d | 2026-08-28 | 4 | 0 | 6 | 4 | 14 | 81 |
+| last180d | 2026-05-30 | 6 | 0 | 13 | 8 | 27 | 146 |
+| 360d | 2025-12-01 | 8 | 0 | 15 | 34 | 54 | 269 |
+| last720d | 2024-12-06 | 16 | 0 | 27 | 90 | 109 | 507 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [trident-installer-26.10.1.tar.gz](https://github.com/NetApp/trident/releases/download/v26.10.1/trident-installer-26.10.1.tar.gz) | 110.7 MiB | `native/unknown` |
-
-## Distribution status
-
-Reported by **6** distros on [repology.org](https://repology.org/project/trident). **1** are ✅ on the latest upstream release, **5** are ⚠️ on an older version.
+| [trident-installer-26.10.2.tar.gz](https://github.com/NetApp/trident/releases/download/v26.10.2/trident-installer-26.10.2.tar.gz) | 110.3 MiB | `native/unknown` |
 
 ## Improve this data
 
@@ -83,4 +79,4 @@ Install metadata for trident lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T07:36:39Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T07:26:16Z._
